@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace LinqExercise
 {
+    public static class Filter
+    {
+        
+    }
     class Program
     {
         //Static array of integers
@@ -110,7 +114,10 @@ namespace LinqExercise
             Console.WriteLine();
 
             Console.ReadLine();
-        }
+            
+
+        
+    }
 
         #region CreateEmployeesMethod
         private static List<Employee> CreateEmployees()
